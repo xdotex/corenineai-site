@@ -61,7 +61,7 @@
     const bar = document.createElement('div');
     bar.className = 'demo-bar';
     bar.innerHTML = `<span><b>구축 구현물 미리보기</b> — 발주·문서 자동처리 파이프라인의 운영 콘솔입니다. 화면의 데이터는 시뮬레이션입니다.</span>
-      <a href="../site/build.html">← 구축 서비스로 돌아가기</a>`;
+      <a href="../build.html">← 구축 서비스로 돌아가기</a>`;
     document.body.prepend(bar);
 
     const groups = {};

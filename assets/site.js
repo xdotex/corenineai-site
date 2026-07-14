@@ -3,7 +3,7 @@
    각 페이지는 <body data-page="..."> 로 활성 메뉴를 지정한다.
    ============================================================ */
 (function () {
-  const EMAIL = 'contact@corenineai.com';
+  const EMAIL = 'hwkim@corenineai.com';
 
   // 심볼: 나인(9): 링 + 라임 꼬리 + 코어. data-tone="dark"면 어두운 배경용 색상.
   function logoSvg(tone) {

@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>인사이트 · 자료실 — CoreNine AI</title>
 <meta name="description" content="부서별 AI 업무 자동화 체크리스트 등 기업 AX 실무 자료를 무료로 받아보세요.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CoreNine AI">
+<meta property="og:title" content="인사이트 · 자료실 — CoreNine AI">
+<meta property="og:description" content="부서별 AI 업무 자동화 체크리스트 등 기업 AX 실무 자료를 무료로 받아보세요.">
+<meta property="og:url" content="https://corenineai.com/insights.html">
+<meta property="og:image" content="https://corenineai.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="assets/style.css">
 <style>
   /* 리드마그넷 게이트 */
@@ -206,7 +216,7 @@
   // 접수 실패해도 다운로드는 막지 않는다 (리드보다 자료 전달 우선).
   document.getElementById('gateForm').addEventListener('submit', e => {
     e.preventDefault();
-    fetch('https://formsubmit.co/ajax/visionmakers101.official@gmail.com', {
+    fetch('https://formsubmit.co/ajax/hwkim@corenineai.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify({
